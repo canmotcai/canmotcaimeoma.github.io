@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="13z12z21.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="list">
+                <a href="#">
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="text">Mesaage</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="text">Photo</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="text">Seting</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="body"><br>
+        <ul>
+            <p>Phím tắt HTML?</p><br>
+            <li>
+                <pre>
+        <p>Lệnh liên kết: 1)(style type="text/css"(/style))<br>
+                2)(link rel="stylesheet" href="tên css")</p>
+        <p>+) Chọn một dòng: Ctrl + L</p>
+        <p>+) Xóa một dòng: Ctrl + Shift + K</p>
+        <p>+) Di chuyển dòng lên Alt + ^</p>
+        <p>+) Đến dòng số...: Ctrl + G</p>
+        <p>+) Tìm kiếm từ: Ctrl + F</p>
+        <var>
+            (code)- Định nghĩa mã code chương trình
+            (kbd) - Định nghĩa đầu vào bàn phím
+            (samp)- Định nghĩa đầu ra bàn phím
+            (var) - Định nghĩa một biến
+            (pre) - Giữ văn bản nguyên dạng
+        </var>
+    </pre>
+            </li>
+        </ul>
+    </div>
+    <var><pre>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .navigation ul li
+        {
+            float: left;
+            margin: 20px;
+            padding: 10px;
+            margin-top: 5%;
+        }
+        .navigation ul li a
+        {
+            border: 3px solid white;        //tạo boder quanh menu booten
+            background-color: none;
+            padding: 10px 29px;
+            box-shadow: 2px 2px 4px #6c6969;
+            border-radius: 3px;
+            color: black;
+            text-decoration: none;  //..
+        }
+        .navigation ul li a:hover{
+            border: 1px solid#90d331;   // Di chuyển thay màu backgroud
+            background-color: #90d331;
+        }
+        .navigation ul li a:active
+        {
+            border: 1px solid#669f15;   // Click chuyển màu
+            background-color: #669f15;
+        }
+        .navigation ul li
+        {
+            list-style-type: none;  // Không gạch chân
+        }
+        .navigation
+        {
+            display:flex;           // Menu vị trí giữa
+            justify-content:center;
+            
+        }
+        .body
+        {
+            margin-top: 5%;
+            margin-left: 9%;
+        }
+    </pre>
+    </var>
+    <table border="1">
+        <tr>
+            <th>Họ Tên</th>
+            <th>Ngày Sinh</th>
+            <th>Giới Tính</th>
+        </tr>
+        <tr>
+            <td>Trần Anh Đức</td>
+            <td>03/08/1993</td>
+            <td>Nam</td>
+        </tr>
+        <tr>
+            <td>Trịnh Thị Thu Hằng</td>
+            <td>04/09/1991</td>
+            <td>Nữ</td>
+        </tr>
+        <tr>
+            <td>Vương Thị Lê Na</td>
+            <td>06/10/1991</td>
+            <td>Nữ</td>
+        </tr>
+    </table>
+    </br>
+    <table border="1">
+        <tr>
+            <th colspan="3">THÔNG TIN SINH VIÊN</th>
+        </tr>
+        <tr>
+            <td>Trần Anh Đức</td>
+            <td>03/08/1993</td>
+            <td>Nam</td>
+        </tr>
+        <tr>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>04/09/1991</td>
+            <td>Nữ</td>
+        </tr>
+        <tr>
+            <td>Vương Thị Lê Na</td>
+            <td>06/10/1991</td>
+            <td>Nữ</td>
+        </tr>
+    </table>
+    </br>
+    <table border="1" bgcolor="pink">
+        <tr>
+            <th rowspan="3">LẬP TRÌNH WEB</th>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+        </tr>
+    </table>
+    </br>
+    <table border="0">
+        <tr>
+            <th rowspan="4" class="cangi">Học Mót .Com</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Như Xuân</td>
+            <td>Mỹ Lộc, Hưng Sơn, Lạng Sơn</td>
+            <td>Cán Bộ</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Huỳnh Lanh</td>
+            <td>Bắc Sơn, Hiệp Hòa, Thái Bình</td>
+            <td>Giáo Viên</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Phúc Như Sơn Nam</td>
+            <td>Phố Láng, Hiện Linh, Nam Sơn</td>
+            <td>Cán Bộ</td>
+        </tr>
+    </table>
+</body>
+
+</html>

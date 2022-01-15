@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    background: url(./anh/header.jpg);
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation ul li {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+.navigation ul li a {
+    border: 3px solid white;
+    background-color: none;
+    padding: 10px 29px;
+    box-shadow: 2px 2px 4px #6c6969;
+    border-radius: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    border: 1px solid#90d331;
+    background-color: #90d331;
+}
+
+.navigation ul li a:active {
+    border: 1px solid wheat;
+    background-color: wheat;
+}
+
+.navigation ul li {
+    list-style-type: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.cangi {
+    background: url(./anh/1.PNG)
+}
