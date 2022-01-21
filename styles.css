@@ -1,0 +1,80 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    /* ch thuoc chu */
+    line-height: 19px;
+    /* khoang dan cach dong*/
+}
+
+#main {
+    width: 1000px;
+    /*kich thuoc <-> font*/
+    margin: auto;
+    /*can chinh tu dong hai ben */
+    background: turquoise;
+}
+
+#menutop {
+    height: 35px;
+    /*chieu cao*/
+    background: violet;
+}
+
+#menutop ul li {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+#menutop ul li a:hover {
+    color: yellowgreen;
+    background: yellow;
+}
+
+#maincontent {
+    float: right;
+    width: 100%;
+    background: royalblue;
+}
+
+#content {
+    margin-right: 300px;
+    background: skyblue;
+}
+
+#right {
+    float: right;
+    margin-right: -100%;
+    width: 300px;
+    background: rosybrown;
+}
+
+#menuright {
+    margin: 0;
+    padding: 15px 5px;
+}
+
+#menuright ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cauhinh {
+    width: 97%;
+    border-radius: 7px;
+    box-shadow: 6px 6px 10px;
+    /* bong do */
+    background: wheat;
+}
+
+#footer {
+    clear: both;
+    color: white;
+    background: tomato;
+}
